@@ -1,0 +1,72 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body {
+	font-size: 100%;
+	background: rgb(41,52,55);
+	background: linear-gradient(90deg, rgba(41,52,55,1) 28%, rgba(35,43,46,1) 44%, rgba(32,39,42,1) 65%, rgba(25,28,31,1) 81%); 
+	user-select: none;
+
+}
+
+.cabecalho {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	padding: 24px;
+	color: rgb(203, 203, 203);
+
+}
+
+.cabecalho-menu {
+	display: flex;
+	gap: 40px;
+}
+
+.sobre-mim {
+	font-family: 'Oswald', sans-serif;
+	color: rgb(203, 203, 203,);
+	font-weight: 400;
+	font-size: 28px;
+}
+
+.bnt-cnt{
+	font-family: 'Oswald', sans-serif;
+	color: rgb(203, 203, 203,);
+	font-weight: 400;
+	font-size: 28px;
+}
+
+
+.mid{
+	font-family: 'Oswald', sans-serif;
+	color: rgb(203, 203, 203,);
+	font-weight: 200;
+	font-size: 18px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around 24px;
+	padding: 18px;
+}
+
+.contatos-tl{
+	font-family: 'Oswald', sans-serif;
+	color: rgb(203, 203, 203);
+}
+
+.txt{
+	font-family: 'Oswald', sans-serif;
+	color: rgb(203, 203, 203);
+	font-weight: 200;
+	font-size: 18px;
+	display: 40px;
+	flex-direction: row;
+	align-items: center;
+	padding: 30px;
+}
