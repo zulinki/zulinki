@@ -5,6 +5,11 @@
 	text-decoration: none;
 }
 
+p{
+  color: rgb(203, 203, 203);
+  font-family: 'Oswald', sans-serif;
+}
+
 body {
 	font-size: 100%;
 	background: rgb(41,52,55);
@@ -19,33 +24,18 @@ body {
 	align-items: center;
 	justify-content: space-around;
 	padding: 24px;
-	color: rgb(203, 203, 203);
-
 }
 
 .cabecalho-menu {
 	display: flex;
-	gap: 40px;
 }
 
 .sobre-mim {
-	font-family: 'Oswald', sans-serif;
-	color: rgb(203, 203, 203,);
 	font-weight: 400;
 	font-size: 28px;
 }
-
-.bnt-cnt{
-	font-family: 'Oswald', sans-serif;
-	color: rgb(203, 203, 203,);
-	font-weight: 400;
-	font-size: 28px;
-}
-
 
 .mid{
-	font-family: 'Oswald', sans-serif;
-	color: rgb(203, 203, 203,);
 	font-weight: 200;
 	font-size: 18px;
 	display: flex;
@@ -56,17 +46,23 @@ body {
 }
 
 .contatos-tl{
-	font-family: 'Oswald', sans-serif;
-	color: rgb(203, 203, 203);
+  margin-left: 10px;
 }
 
 .txt{
-	font-family: 'Oswald', sans-serif;
-	color: rgb(203, 203, 203);
 	font-weight: 200;
 	font-size: 18px;
 	display: 40px;
 	flex-direction: row;
 	align-items: center;
 	padding: 30px;
+}
+.hobbys{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	padding: 24px;
+  font-weight: 400;
+	font-size: 28px;
 }
