@@ -57,7 +57,7 @@ body {
 	align-items: center;
 	padding: 30px;
 }
-.hobbys{
+.hobbies{
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -65,4 +65,18 @@ body {
 	padding: 24px;
   font-weight: 400;
 	font-size: 28px;
+}
+
+.txt-hobbies{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo-github{
+  color:white;
+}
+.txt-sobre-mim{
+
 }
