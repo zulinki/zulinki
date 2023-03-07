@@ -7,11 +7,12 @@
 	text-decoration: none;
 	color: rgb(255, 255, 255);
 	font-family: 'Oswald', sans-serif;
+	user-select: none;
 }
 
 body {
     background: #020024;
-    background: linear-gradient(90deg, #020024 0%, #090979 60%, #1414a7 80%);	user-select: none;
+    background: linear-gradient(90deg, #020024 0%, #090979 60%, #1414a7 80%);	
 }
 
 h1{
