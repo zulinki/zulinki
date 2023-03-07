@@ -1,82 +1,90 @@
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	text-decoration: none;
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+
+    font-family: 'Oswald';
 }
 
-p{
-  color: rgb(203, 203, 203);
-  font-family: 'Oswald', sans-serif;
+.header_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+
+    background: #020024;
+    width: 100%;
+    height: 10vh;
 }
 
-body {
-	font-size: 100%;
-	background: rgb(41,52,55);
-	background: linear-gradient(90deg, rgba(41,52,55,1) 28%, rgba(35,43,46,1) 44%, rgba(32,39,42,1) 65%, rgba(25,28,31,1) 81%); 
-	user-select: none;
-
+.nav_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    gap: 50%;
+    
+    max-width: 100%;
+    height: 10vh;
 }
 
-.cabecalho {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-around;
-	padding: 24px;
+.btn-nav {
+    display: flex;
+
+    gap: 70%;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.5s;
 }
 
-.cabecalho-menu {
-	display: flex;
+.btn-nav:hover {
+    color: #3d3dd5;
 }
 
-.sobre-mim {
-	font-weight: 400;
-	font-size: 28px;
+
+.home_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    min-width: 100%;
+    min-height: 90vh;
+
+    background: #020024;
+    background: linear-gradient(90deg, #020024 0%, #090979 60%, #1414a7 80%);
+    /* background: radial-gradient(circle, #090979 0%, #1414a7 20%, #020024 90%); */
 }
 
-.mid{
-	font-weight: 200;
-	font-size: 18px;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-around 24px;
-	padding: 18px;
+.home_section h1 {
+    border-right: 2px solid;
+    white-space: nowrap;
+    width: 15ch;
+    overflow: hidden;
+    animation: typing 3.2s steps(30),
+    blinking 0.5s infinite step-end alternate;
 }
 
-.contatos-tl{
-  margin-left: 10px;
+@keyframes typing {
+    from{
+        width: 0;
+    }
 }
 
-.txt{
-	font-weight: 200;
-	font-size: 18px;
-	display: 40px;
-	flex-direction: row;
-	align-items: center;
-	padding: 30px;
-}
-.hobbies{
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-around;
-	padding: 24px;
-  font-weight: 400;
-	font-size: 28px;
+@keyframes blinking {
+    50% {
+        border-color: transparent;
+    }
 }
 
-.txt-hobbies{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-}
 
-.logo-github{
-  color:white;
-}
-.txt-sobre-mim{
-
+@media screen and (max-width: 768px) {
+    .home_section h1 {
+        font-size: 30px;
+    }
+    
 }
