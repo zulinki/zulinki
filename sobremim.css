@@ -66,7 +66,7 @@ p{
 }
 
 .logo-github{
-  color:white;
+  color:rgb(255, 255, 255);
   display: flex;
   flex-direction: row;
   justify-content: right;
@@ -74,7 +74,7 @@ p{
   transition: 0.5s;
 }
 .logo-github:hover{
-	color: #3d3dd5;
+	color: #00909b;
 }
 
 .txt-sobremim{
