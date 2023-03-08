@@ -71,9 +71,13 @@ p{
   flex-direction: row;
   justify-content: right;
   font-size: 64px;
+  transition: 0.5s;
+}
+.logo-github:hover{
+	color: #3d3dd5;
 }
 
-.txt-sobre-mim{
+.txt-sobremim{
 	display:flex ;
 	flex-direction: row;
 	justify-content: center;
